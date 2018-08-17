@@ -1,0 +1,144 @@
+.navbar {
+    border-radius: 0;
+    height: 30px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.navbar-brand{
+    width: 60px;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center center;
+}
+
+.side-bar {
+    position: fixed;
+    width: 10%;
+}
+
+.content {
+    margin-top: 70px;
+}
+
+.side-bar .list-group-item{
+    border: 0;
+    border-radius: 2px;
+}
+
+.list-group-item.active,
+.list-group-item.active:hover{
+    background: #ea0c3c;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.post-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.post-heading:hover {
+    color: #000;
+}
+
+.avatar {
+    display: inline-block;
+    max-width: 20px;
+    border-radius: 50%;
+}
+
+.post-list-item {
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.post-list-item:first-child {
+    padding-top: 0;
+}
+
+.search-bar {
+    height: auto;
+}
+
+.side-bar-well {
+    padding: 10px;
+    background: #f5f5f5;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.side-bar-well-title {
+    font-size: 18px;
+}
+
+.top-news {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 3px;
+}
+.news-item {
+    display: block;
+    color: #666;
+}
+
+.news-item > * {
+    padding: 10px 10px 0px;
+}
+
+.news-item:hover {
+    background: rgba(0,0,0,0.03);
+}
+
+.news-info {
+    color: #999;
+    padding: 5px 10px;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 30px 0;
+    color: #999;
+    text-align: center;
+}
+
+/*news.html*/
+.news .info {
+    color: #999;
+    font-size: 16px;
+}
+
+.news h1 {
+    line-height: 1.5;
+}
+
+.news-content {
+    font-size: 16px;
+}
+
+.side-bar-well strong {
+  padding: 20px;
+}
+
+/*login.html*/
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
